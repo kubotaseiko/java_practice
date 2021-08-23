@@ -1,4 +1,4 @@
-package task10_2;
+package task11;
 
 public class Matango {
 	int hp = 50;
@@ -7,9 +7,8 @@ public class Matango {
 		this.suffix = suffix;
 	}
 	public void attack(Hero h) {
-		System.out.println("キノコ" + this.suffix + "の攻撃");
-		System.out.println("10のダメージ");
+		System.out.println("");
+		System.out.println("");
 		h.hp -= 10;
 	}
-
 }

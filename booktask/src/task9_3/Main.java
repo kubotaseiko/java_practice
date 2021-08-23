@@ -17,5 +17,7 @@ public class Main {
 		heal(baseHp);
 		heal(t);
 		System.out.println(baseHp + " : " + t.hp);
+		
+		
 	}
 }
