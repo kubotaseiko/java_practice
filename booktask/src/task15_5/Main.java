@@ -1,4 +1,4 @@
-package Task15_5;
+package task15_5;
 
 import java.time.*;
 import java.time.format.DateTimeFormatter;

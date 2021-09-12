@@ -1,4 +1,4 @@
-package Task16_2;
+package task16;
 
 import java.util.*;
 

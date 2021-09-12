@@ -1,4 +1,4 @@
-package Task16_2;
+package task16;
 
 public class Hero {
 	private String name;
