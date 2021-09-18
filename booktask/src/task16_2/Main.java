@@ -9,10 +9,10 @@ public class Main {
 		List<Hero> heros = new ArrayList<Hero>();
 		heros.add(h1);
 		heros.add(h2);
-		
+
 		for (Hero h : heros) {
 			System.out.println(h.getName());
-			
+
 		}
 		Map<Hero,Integer> heros2 = new HashMap<Hero,Integer>();
 		heros2.put(h1, 3);
@@ -20,6 +20,8 @@ public class Main {
 		for (Hero key : heros2.keySet()) {
 			int value = heros2.get(key);
 			System.out.println(key.getName() + "の人口は、" + value);
+
+
 		}
 	}
 
