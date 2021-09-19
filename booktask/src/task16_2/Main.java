@@ -20,8 +20,6 @@ public class Main {
 		for (Hero key : heros2.keySet()) {
 			int value = heros2.get(key);
 			System.out.println(key.getName() + "の人口は、" + value);
-
-
 		}
 	}
 
