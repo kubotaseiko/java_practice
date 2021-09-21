@@ -13,6 +13,7 @@ public class Main {
 		for (Hero h : heros) {
 			System.out.println(h.getName());
 
+
 		}
 		Map<Hero,Integer> heros2 = new HashMap<Hero,Integer>();
 		heros2.put(h1, 3);
