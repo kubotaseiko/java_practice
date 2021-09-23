@@ -1,6 +1,6 @@
 package task17_2;
 
-import java.io.*;
+import java.io.FileReader;
 
 public class Main {
 	public static void main(String[] args) throws Exception{
@@ -9,6 +9,7 @@ public class Main {
 		while (input != -1) {
 			System.out.print((char)input);
 			input = fr.read();
+
 		}
 		fr.close();
 	}
